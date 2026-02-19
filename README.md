@@ -10,6 +10,20 @@ A modern Android home screen launcher inspired by webOS design principles — ge
 
 ---
 
+## Table of Contents
+
+- [CoC](#code-of-conduct)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Architecture](#architecture)
+- [Development Guide](#development-guide)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+---
+
 ### Quick Links
 
 | Documentation | Community |
@@ -22,20 +36,7 @@ A modern Android home screen launcher inspired by webOS design principles — ge
 
 ---
 
-## Table of Contents
-
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Architecture](#architecture)
-- [Development Guide](#development-guide)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
----
-
-### Code of Conduct
+## Code of Conduct
 
 
 This is an **AI-assisted project** — Before contributing or commenting:

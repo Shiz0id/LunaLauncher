@@ -12,12 +12,24 @@ A modern Android home screen launcher inspired by webOS design principles — ge
 
 ### Code of Conduct
 
-This is an AI-assisted project. Before contributing or commenting:
 
-- Be respectful and constructive
-- Assume good intent
-- Provide actionable feedback
-- Respect time zone differences
+This is an **AI-assisted project** — Before contributing or commenting:
+
+**Expected behavior:**
+- Be respectful, constructive, and assume good intent on the part of Contributers
+- Provide actionable, specific feedback  in Issues
+- Respect contributors' time and time zones
+- AI contributions are welcomed and are expected to be attributed correctly.
+
+**Unacceptable behavior:**
+- Harassment, discrimination, or personal attacks
+- Dismissing contributions solely because AI was involved
+- Demanding immediate responses or free labor
+- Submitting AI-generated content disclosure
+
+**Enforcement:** Violations may result in comment removal, temporary bans, or permanent exclusion at maintainer discretion.
+
+
 
 ---
 
@@ -340,7 +352,7 @@ Two-axis theming: **glass style** × **color palette**.
 | Glass Style | Character |
 |-------------|-----------|
 | SMOKY_GLASS | Dark, sophisticated glassmorphism |
-| CRYSTAL_GLASS | Clear, luminous, lighter tint |
+| CRYSTAL_GLASS | Clear, frosted Glass in a familiar 7 look |
 
 16 color palettes: AERO, SKY, TWILIGHT, SEA, SMOKE, PRO_BLACK, LIME, LEAF, FIRE, ORANGE, RUBY, FUCHSIA, BLUSH, VIOLET, LAVENDER, TAUPE, CHOCOLATE.
 
@@ -455,7 +467,7 @@ git checkout -b feature/my-feature
 
 ### Inspiration
 
-Luna Launcher is inspired by **webOS 3.x Luna System Manager**, a pioneering mobile operating system developed by Palm/HP. The porting effort preserves core UX innovations.
+Luna Launcher is inspired by **webOS Luna System Manager**, a pioneering mobile operating system architecture developed by Palm/HP. Special thanks to the Palm and HP WebOS teams.
 
 ### Community & Contributors
 
@@ -467,7 +479,7 @@ Luna Launcher benefits from:
 
 ### Legacy Reference
 
-The C++ legacy codebases (`luna-sysmgr`, `luna-appmanager`, `luna-universalsearchmgr`) are included as **read-only reference**. They demonstrate the original webOS architecture and are used to ensure faithful porting of behavior. No modifications to C++ code are expected unless explicitly requested for compatibility research.
+The C++ legacy codebases (`luna-sysmgr`, `luna-appmanager`, `luna-universalsearchmgr`) are included as **read-only reference**. They demonstrate the original webOS architecture and are used to ensure faithful porting of behavior.
 
 ---
 

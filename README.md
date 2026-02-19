@@ -24,8 +24,8 @@ This is an **AI-assisted project** — Before contributing or commenting:
 **Unacceptable behavior:**
 - Harassment, discrimination, or personal attacks
 - Dismissing contributions solely because AI was involved
-- Demanding immediate responses or free labor
-- Submitting AI-generated content disclosure
+- Demanding and impatient behavior in comments.
+- Submitting AI-generated content without disclosure
 
 **Enforcement:** Violations may result in comment removal, temporary bans, or permanent exclusion at maintainer discretion.
 

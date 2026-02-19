@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(./gradlew:*)",
+      "WebFetch(domain:source.android.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:chrisbanes.github.io)",
+      "WebFetch(domain:issuetracker.google.com)",
+      "WebFetch(domain:www.xda-developers.com)",
+      "WebFetch(domain:help.niagaralauncher.app)",
+      "Bash(xxd:*)",
+      "Bash(rm:*)",
+      "Bash(dir:*)",
+      "Bash(.\\\\gradlew :ui-home:compileDebugKotlin:*)",
+      "Bash(.gradlew.bat :app:compileDebugKotlin)",
+      "Bash(ls -la \"D:\\\\LunaSysMan\\\\launcher-android\\\\data\\\\src\\\\main\\\\kotlin\\\\com\\\\lunasysman\\\\launcher\\\\data\"\" | grep -i \"just|pref \")",
+      "WebFetch(domain:canopas.com)",
+      "WebFetch(domain:devjorgecastro.medium.com)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:mvnrepository.com)"
+    ]
+  }
+}

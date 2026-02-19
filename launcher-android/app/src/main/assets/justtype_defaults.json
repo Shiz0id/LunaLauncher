@@ -1,0 +1,168 @@
+[
+  {
+    "id": "new_email",
+    "category": "action",
+    "displayName": "New Email",
+    "enabled": true,
+    "orderIndex": 10,
+    "version": 1,
+    "source": "default"
+  },
+  {
+    "id": "new_event",
+    "category": "action",
+    "displayName": "New Event",
+    "enabled": true,
+    "orderIndex": 20,
+    "version": 1,
+    "source": "default"
+  },
+  {
+    "id": "new_message",
+    "category": "action",
+    "displayName": "New Message",
+    "enabled": true,
+    "orderIndex": 30,
+    "version": 1,
+    "source": "default"
+  },
+  {
+    "id": "set_timer",
+    "category": "action",
+    "displayName": "Set Timer",
+    "enabled": true,
+    "orderIndex": 40,
+    "version": 1,
+    "source": "default"
+  },
+  {
+    "id": "set_alarm",
+    "category": "action",
+    "displayName": "Set Alarm",
+    "enabled": true,
+    "orderIndex": 50,
+    "version": 1,
+    "source": "default"
+  },
+  {
+    "id": "open_settings",
+    "category": "action",
+    "displayName": "Open Settings",
+    "enabled": true,
+    "orderIndex": 60,
+    "version": 1,
+    "source": "default"
+  },
+  {
+    "id": "wifi_settings",
+    "category": "action",
+    "displayName": "Wi‑Fi Settings",
+    "enabled": true,
+    "orderIndex": 70,
+    "version": 1,
+    "source": "default"
+  },
+  {
+    "id": "bluetooth_settings",
+    "category": "action",
+    "displayName": "Bluetooth Settings",
+    "enabled": true,
+    "orderIndex": 80,
+    "version": 1,
+    "source": "default"
+  },
+  {
+    "id": "manage_apps",
+    "category": "action",
+    "displayName": "Manage Apps",
+    "enabled": true,
+    "orderIndex": 90,
+    "version": 1,
+    "source": "default"
+  },
+  {
+    "id": "call",
+    "category": "action",
+    "displayName": "Call",
+    "enabled": true,
+    "orderIndex": 110,
+    "version": 1,
+    "source": "default"
+  },
+  {
+    "id": "text",
+    "category": "action",
+    "displayName": "Text",
+    "enabled": true,
+    "orderIndex": 120,
+    "version": 1,
+    "source": "default"
+  },
+  {
+    "id": "apps",
+    "category": "apps",
+    "enabled": true,
+    "orderIndex": 100,
+    "version": 1,
+    "source": "default"
+  },
+  {
+    "id": "notifications",
+    "category": "notifications",
+    "displayName": "Notifications",
+    "enabled": true,
+    "orderIndex": 150,
+    "version": 1,
+    "source": "default"
+  },
+  {
+    "id": "contacts",
+    "category": "dbsearch",
+    "displayName": "Contacts",
+    "enabled": true,
+    "orderIndex": 200,
+    "version": 1,
+    "source": "default"
+  },
+  {
+    "id": "google",
+    "category": "search",
+    "displayName": "Google",
+    "enabled": true,
+    "orderIndex": 900,
+    "version": 1,
+    "source": "default",
+    "canPromotePrimaryResult": true,
+    "urlTemplate": "https://www.google.com/search?q={searchTerms}"
+  },
+  {
+    "id": "google_maps",
+    "category": "search",
+    "displayName": "Google Maps",
+    "enabled": true,
+    "orderIndex": 905,
+    "version": 1,
+    "source": "default",
+    "urlTemplate": "geo:0,0?q={searchTerms}"
+  },
+  {
+    "id": "reddit",
+    "category": "search",
+    "displayName": "Reddit",
+    "enabled": true,
+    "orderIndex": 915,
+    "version": 1,
+    "source": "default",
+    "urlTemplate": "https://reddit.com/search?q={searchTerms}"
+  },
+  {
+    "id": "wikipedia",
+    "category": "search",
+    "displayName": "Wikipedia",
+    "enabled": true,
+    "orderIndex": 910,
+    "version": 1,
+    "source": "default",
+    "urlTemplate": "https://en.wikipedia.org/wiki/Special:Search?search={searchTerms}"
+  }
+]

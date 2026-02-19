@@ -1,0 +1,122 @@
+package com.lunasysman.launcher.ui.home.theme
+
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.Immutable
+import androidx.compose.runtime.staticCompositionLocalOf
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import com.lunasysman.launcher.core.model.LauncherThemeStyle
+
+private val HOME_GUTTER_SCRIM: Color = Color.Black.copy(alpha = 0.78f)
+
+@Immutable
+data class LauncherColorTokens(
+    val homeSearchBarBackground: Color,
+    val homeGutterScrim: Color,
+    val dockBackground: Color,
+    val homeEditBarBackground: Color,
+    val homeEditBarPrimaryText: Color,
+    val homeEditBarSecondaryText: Color,
+    val justTypeResultsPanelBackground: Color,
+    val justTypeSectionCardBackground: Color,
+    val justTypeRowDivider: Color,
+    val justTypeChipBackground: Color,
+    val justTypePillBackground: Color,
+    val justTypeFirstItemFocusBackground: Color,
+    val glassBackdropBlurRadius: Dp,
+    val glassStrokeColor: Color,
+    val glassStrokeWidth: Dp,
+    val deckForegroundCardBackground: Color,
+    val allAppsSearchBarBackground: Color,
+    val allAppsBackgroundTop: Color,
+    val allAppsBackgroundBottom: Color,
+)
+
+private val LocalLauncherColors = staticCompositionLocalOf {
+    LauncherColorTokens(
+        homeSearchBarBackground = Color.Black.copy(alpha = 0.25f),
+        homeGutterScrim = HOME_GUTTER_SCRIM,
+        dockBackground = Color.Black.copy(alpha = 0.22f),
+        homeEditBarBackground = Color.Black.copy(alpha = 0.22f),
+        homeEditBarPrimaryText = Color.White.copy(alpha = 0.92f),
+        homeEditBarSecondaryText = Color.White.copy(alpha = 0.70f),
+        justTypeResultsPanelBackground = Color.Black.copy(alpha = 0.18f),
+        justTypeSectionCardBackground = Color.Black.copy(alpha = 0.22f),
+        justTypeRowDivider = Color.Black.copy(alpha = 0.18f),
+        justTypeChipBackground = Color.White.copy(alpha = 0.10f),
+        justTypePillBackground = Color.White.copy(alpha = 0.12f),
+        glassBackdropBlurRadius = 60.dp,
+        glassStrokeColor = Color.White.copy(alpha = 0.10f),
+        glassStrokeWidth = 0.5.dp,
+        deckForegroundCardBackground = Color.Black.copy(alpha = 0.30f),
+        allAppsSearchBarBackground = Color.Black.copy(alpha = 0.24f),
+        allAppsBackgroundTop = Color(0xFF2C3136).copy(alpha = 0.93f),
+        allAppsBackgroundBottom = Color(0xFF1E2226).copy(alpha = 0.93f),
+    )
+}
+
+object LauncherTheme {
+    val colors: LauncherColorTokens
+        @Composable get() = LocalLauncherColors.current
+}
+
+@Composable
+fun LunaLauncherTheme(
+    style: LauncherThemeStyle,
+    content: @Composable () -> Unit,
+) {
+    val colors =
+        when (style) {
+            LauncherThemeStyle.SMOKY_GLASS ->
+                LauncherColorTokens(
+                    homeSearchBarBackground = Color.Black.copy(alpha = 0.25f),
+                    homeGutterScrim = HOME_GUTTER_SCRIM,
+                    dockBackground = Color.Black.copy(alpha = 0.22f),
+                    homeEditBarBackground = Color.Black.copy(alpha = 0.22f),
+                    homeEditBarPrimaryText = Color.White.copy(alpha = 0.92f),
+                    homeEditBarSecondaryText = Color.White.copy(alpha = 0.70f),
+                    // Just Type surfaces: 50% less transparent (opacity +50%).
+                    justTypeResultsPanelBackground = Color.Black.copy(alpha = 0.27f),
+                    justTypeSectionCardBackground = Color.Black.copy(alpha = 0.33f),
+                    justTypeRowDivider = Color.Black.copy(alpha = 0.27f),
+                    justTypeChipBackground = Color.White.copy(alpha = 0.15f),
+                    justTypePillBackground = Color.White.copy(alpha = 0.18f),
+                    glassBackdropBlurRadius = 60.dp,
+                    glassStrokeColor = Color.White.copy(alpha = 0.10f),
+                    glassStrokeWidth = 0.5.dp,
+                    deckForegroundCardBackground = Color.Black.copy(alpha = 0.30f),
+                    allAppsSearchBarBackground = Color.Black.copy(alpha = 0.24f),
+                    allAppsBackgroundTop = Color(0xFF2C3136).copy(alpha = 0.93f),
+                    allAppsBackgroundBottom = Color(0xFF1E2226).copy(alpha = 0.93f),
+                )
+            LauncherThemeStyle.CRYSTAL_GLASS ->
+                LauncherColorTokens(
+                    // White acrylic / crystal look (still translucent to show wallpaper).
+                    homeSearchBarBackground = Color(0xFFEAF4FF).copy(alpha = 0.18f),
+                    homeGutterScrim = HOME_GUTTER_SCRIM,
+                    dockBackground = Color(0xFFEAF4FF).copy(alpha = 0.14f),
+                    homeEditBarBackground = Color(0xFFEAF4FF).copy(alpha = 0.14f),
+                    homeEditBarPrimaryText = Color.White.copy(alpha = 0.92f),
+                    homeEditBarSecondaryText = Color.White.copy(alpha = 0.78f),
+                    // Just Type surfaces: 50% less transparent (opacity +50%).
+                    justTypeResultsPanelBackground = Color(0xFFEAF4FF).copy(alpha = 0.18f),
+                    justTypeSectionCardBackground = Color(0xFFEAF4FF).copy(alpha = 0.21f),
+                    justTypeRowDivider = Color.White.copy(alpha = 0.12f),
+                    justTypeChipBackground = Color.White.copy(alpha = 0.21f),
+                    justTypePillBackground = Color.White.copy(alpha = 0.24f),
+                    glassBackdropBlurRadius = 60.dp,
+                    glassStrokeColor = Color.White.copy(alpha = 0.22f),
+                    glassStrokeWidth = 1.dp,
+                    deckForegroundCardBackground = Color(0xFFEAF4FF).copy(alpha = 0.30f),
+                    allAppsSearchBarBackground = Color(0xFFEAF4FF).copy(alpha = 0.16f),
+                    allAppsBackgroundTop = Color(0xFF2A3036).copy(alpha = 0.93f),
+                    allAppsBackgroundBottom = Color(0xFF1B2024).copy(alpha = 0.93f),
+                )
+        }
+
+    CompositionLocalProvider(LocalLauncherColors provides colors) {
+        content()
+    }
+}

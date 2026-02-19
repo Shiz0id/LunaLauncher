@@ -10,29 +10,6 @@ A modern Android home screen launcher inspired by webOS design principles — ge
 
 ---
 
-### Code of Conduct
-
-
-This is an **AI-assisted project** — Before contributing or commenting:
-
-**Expected behavior:**
-- Be respectful, constructive, and assume good intent on the part of Contributers
-- Provide actionable, specific feedback  in Issues
-- Respect contributors' time and time zones
-- AI contributions are welcomed and are expected to be attributed correctly.
-
-**Unacceptable behavior:**
-- Harassment, discrimination, or personal attacks
-- Dismissing contributions solely because AI was involved
-- Demanding and impatient behavior in comments.
-- Submitting AI-generated content without disclosure
-
-**Enforcement:** Violations may result in comment removal, temporary bans, or permanent exclusion at maintainer discretion.
-
-
-
----
-
 ### Quick Links
 
 | Documentation | Community |
@@ -55,6 +32,29 @@ This is an **AI-assisted project** — Before contributing or commenting:
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+
+---
+
+### Code of Conduct
+
+
+This is an **AI-assisted project** — Before contributing or commenting:
+
+**Expected behavior:**
+- Be respectful, constructive, and assume good intent on the part of Contributers
+- Provide actionable, specific feedback  in Issues
+- Respect contributors' time and time zones
+- AI contributions are welcomed and are expected to be attributed correctly.
+
+**Unacceptable behavior:**
+- Harassment, discrimination, or personal attacks
+- Dismissing contributions solely because AI was involved
+- Demanding and impatient behavior in comments.
+- Submitting AI-generated content without disclosure
+
+**Enforcement:** Violations may result in comment removal, temporary bans, or permanent exclusion at maintainer discretion.
+
+
 
 ---
 

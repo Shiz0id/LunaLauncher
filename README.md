@@ -125,7 +125,7 @@ Luna Launcher is designed as a **WebApp/PWA-first launcher** with long-term webO
 
 - Adding PWA support requires only a new scanner, not UI changes
 - webOS apps can be launched via WebView with the same icon/gesture experience
-- Future runtimes (Electron apps, Linux apps via containers) slot in cleanly
+- Future runtimes (Electron apps, Enyo, and Mojo) slot in cleanly
 
 **Current status:**
 | Runtime | Status |

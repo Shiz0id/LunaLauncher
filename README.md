@@ -16,9 +16,9 @@ A modern Android home screen launcher inspired by webOS design principles — ge
 |---------------|-----------|
 | [Getting Started](#getting-started) | [Issues](../../issues) |
 | [Architecture](#architecture) | [Discussions](../../discussions) |
-| [Gestures Reference](docs/Gestures.md) | [Contributing](#contributing) |
-| [LaunchPoint Abstraction](docs/LaunchPoint.md) | [CLAUDE.md](CLAUDE.md) — AI agent guide |
-| [Project Roadmap](docs/plan-lunaSysmanAndroidPort.md) | |
+| [Gestures Reference](launcher-android/docs/Gestures.md) | [Contributing](#contributing) |
+| [LaunchPoint Abstraction](launcher-android/docs/LaunchPoint.md) | [CLAUDE.md](CLAUDE.md) — AI agent guide |
+| [Project Roadmap](launcher-android/docs/plan-lunaSysmanAndroidPort.md) | |
 
 ---
 

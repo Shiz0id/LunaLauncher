@@ -1,0 +1,25 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# Local config (contains SDK paths)
+local.properties
+**/local.properties
+
+# Mac/Windows
+.DS_Store
+Thumbs.db
+
+# Signing keys
+*.jks
+*.keystore
+
+# Generated files
+*.apk
+*.aab
+

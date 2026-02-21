@@ -69,17 +69,35 @@ Explicitly excluded to maintain focus on file organization.
 
 ## Traceability
 
-Which phases cover which requirements. Will be populated during roadmap creation.
+Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| (To be filled by roadmapper) | | |
+| QUAL-03 | Phase 1 | Pending |
+| QUAL-04 | Phase 1 | Pending |
+| EXTR-01 | Phase 2 | Pending |
+| VALD-01 | Phase 2 | Pending |
+| VALD-02 | Phase 2 | Pending |
+| VALD-03 | Phase 2 | Pending |
+| VALD-04 | Phase 2 | Pending |
+| SAFE-01 | Phase 2 | Pending |
+| SAFE-03 | Phase 2 | Pending |
+| SAFE-05 | Phase 2 | Pending |
+| EXTR-02 | Phase 3 | Pending |
+| EXTR-03 | Phase 4 | Pending |
+| SAFE-02 | Phase 4 | Pending |
+| SAFE-04 | Phase 4 | Pending |
+| EXTR-04 | Phase 5 | Pending |
+| QUAL-01 | Phase 6 | Pending |
+| QUAL-02 | Phase 6 | Pending |
 
 **Coverage:**
 - v1 requirements: 13 total
-- Mapped to phases: 0 (pending roadmap)
-- Unmapped: 13 ⚠️
+- Mapped to phases: 13 (100% coverage)
+- Unmapped: 0
+
+**Note:** Validation requirements (VALD-01 to VALD-04) and safety requirements (SAFE-01, SAFE-03, SAFE-05) are explicitly mapped to Phase 2 as they establish the validation pattern, but they apply to ALL extraction phases (2-5). Each extraction phase will validate against these criteria.
 
 ---
 *Requirements defined: 2026-02-20*
-*Last updated: 2026-02-20 after initial definition*
+*Last updated: 2026-02-20 after roadmap creation*

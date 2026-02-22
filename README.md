@@ -71,8 +71,8 @@ This is an **AI-assisted project** — Before contributing or commenting:
 
 - **Sectioned Results** — Results grouped by category: Apps, Actions, Notifications, Search Templates
 - **Pluggable Providers** — Extensible architecture supporting:
-  - Apps (native Android + webOS compatibility layer)
-  - Notifications (search via NotificationListenerService)
+  - Apps (native Android + future webOS app actions)
+  - Notifications (search via NotificationListenerService. Persisted in Memory, Never disk)
   - Quick Actions ("New Email", "New Event", etc.)
   - Web Search Templates (configurable search engines)
 - **Smart Ranking** — Token prefix matching with recency bonuses, pinned app priority, and intelligent substring fallback
